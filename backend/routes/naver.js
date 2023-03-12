@@ -33,11 +33,12 @@ router.get("/", async function (req, res) {
     for (var i = 0; i < data.items.length; ++i) {
       data.items[i].title = data.items[i].title
         .replace(/(<([^>]+)>)/gi, "")
-        .replace(/&quot;/g, "'")
+        .replace(/&quot;/g, '"')
         .replace(/\"n/, " ")
-        .replace(/&amp;/g, '"')
+        .replace(/&amp;/g, "&")
         .replace(/&lt;/g, "<")
-        .replace(/&gt;/g, ">");
+        .replace(/&gt;/g, ">")
+        .replace(/&apos;/g, "'");
     }
     const pythonRes = await axios.post("http://localhost:5000/", {
       title: query,
