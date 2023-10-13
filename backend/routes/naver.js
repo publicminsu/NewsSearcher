@@ -40,7 +40,7 @@ router.get("/", async function (req, res) {
         .replace(/&gt;/g, ">")
         .replace(/&apos;/g, "'");
     }
-    const pythonRes = await axios.post("http://localhost:5000/", {
+    const pythonRes = await axios.post("http://127.0.0.1:5000/", {
       title: query,
       data: data,
     });
