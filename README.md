@@ -1,5 +1,6 @@
 개요
 -------------
+![image02](https://github.com/publicminsu/baekjoon/assets/89894770/e238a9b0-0367-4bbc-9762-a790acb75df2)<br>
 학교에서 한 학기 동안 팀 프로젝트로 하였던 가짜뉴스판독기이다.
 
 사용 방법
