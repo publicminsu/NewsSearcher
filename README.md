@@ -27,7 +27,8 @@ npm start
 
 기본 아이디어
 -------------
-![image03](https://github.com/publicminsu/baekjoon/assets/89894770/81e18319-14b3-4964-957b-f21df905065f)<br>
+![275324618-81e18319-14b3-4964-957b-f21df905065f](https://github.com/publicminsu/baekjoon/assets/89894770/9b771097-18ff-4e36-8927-77bb19acb4e2)
+<br>
 가짜 뉴스의 경우 이미지 형태로 전파되는 경우가 많다.<br>
 해당 이미지에서 제목에 해당하는 부분을 추출하여 검색해 보았을 때<br>
 검색되는 기사가 없다면 거짓된 제목일 것이다.<br>
